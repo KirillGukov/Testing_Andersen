@@ -4,7 +4,7 @@
 <br>
 I) main.py - стандартный запуск скрипта, на ввод подаются на выбор(строка/число/список). Скрипт определяет что было подано и соотвествует ли оно условиям задания и дает ответ. tests.py реализуют юнит-тесты для данных функций на граничные, положительные и отрицательные условия.
 <br>
-II) one_by_one - запуск с помощью следующих комманд в консоли: `python one_by_one.py --function check_number --args num` - для проверки числа,
+II) one_by_one - запуск с помощью следующих комманд в консоли:<br> `python one_by_one.py --function check_number --args num` - для проверки числа,
 <br>`python one_by_one.py --function check_john --args str` - для проверки строки, <br>`python one_by_one.py --function check_array --args list` - для проверки списка.  
 <br>
 (где num-число, str-сторка, list-список которые мы хотим проверить)
