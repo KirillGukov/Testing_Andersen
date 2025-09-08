@@ -32,7 +32,6 @@ def check_array(k):
     return f"Результат: {ans_lst}"
 
 
-
 def main():
     parser = argparse.ArgumentParser(description='Запуск функций из консоли.')
     parser.add_argument('--function', choices=['check_number', 'check_john', 'check_array'], required=True,

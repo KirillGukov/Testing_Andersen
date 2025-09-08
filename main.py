@@ -4,6 +4,7 @@ def is_number_greater_7(s):
     else:
         return "Number less 7"
 
+
 def is_john(s):
     if s == "John":
         return "Hello John"
@@ -22,13 +23,13 @@ def is_multiples_3(s):
             pass
     return f"Результат: {ans_lst}"
 
+
 def main():
     while True:
         user_input = input("Введите число, строку, список или 'end' для выхода: ")
 
         if user_input.lower() == "end":
             return "Завершение работы."
-
 
         input_str = user_input.strip()
         if input_str.startswith("[") and input_str.endswith("]"):
